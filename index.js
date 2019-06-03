@@ -1,7 +1,7 @@
-const packager = require('./package.json')
+const path = require('path')
 
 const idWordnet = {
-    version: packager.wordnet.version,
+    "1.2": path.join(__dirname, 'database', '1.2')
 }
 
 module.exports = idWordnet
