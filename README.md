@@ -10,6 +10,10 @@ Princeton University defines it as
 
 Inspired by [Princeton WordNet](https://wordnet.princeton.edu/) and the [Global WordNet Grid](http://globalwordnet.org/), the team at Wordnet Bahasa decided to create a large, freely available, semantic dictionary of the Malay languages (Malaysian and Indonesian)
 
+![](https://img.shields.io/travis/open-language/id-wordnet.svg)
+![](https://img.shields.io/codecov/c/github/open-language/id-wordnet/master.svg)
+
+
 ## Where did you find this?
 
 The latest version of the Bahasa Wordnet can be found at their [website](https://sourceforge.net/projects/wn-msa/) which is hosted on SourceForge. You can find more information about the project [here](http://wn-msa.sourceforge.net/index.eng.html).
