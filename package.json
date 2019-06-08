@@ -1,7 +1,8 @@
 {
   "name": "id-wordnet",
-  "version": "1.0.1",
-  "main": "index.js",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "repository": "git@github.com:open-language/id-wordnet.git",
   "author": "Sudhanshu Raheja <sudhanshu@leftshift.io>",
   "license": "MIT",
@@ -26,10 +27,17 @@
     "eslint-plugin-jest": "^22.6.4",
     "jest": "^24.8.0",
     "prettier": "^1.17.1",
-    "eslint-plugin-security": "^1.4.0"
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.7",
+    "@typescript-eslint/parser": "^1.9.0",
+	  "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
   },
   "scripts": {
     "start": "node index.js",
-    "test": "jest --detectOpenHandles"
-  }
+    "test": "tsc && jest --detectOpenHandles",
+    "build": "tsc"
+  },
+  "files": ["dist/**/*"]
 }

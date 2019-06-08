@@ -1,7 +1,7 @@
-const idWordnet = require('./index')
+import idWordnet from './index'
 
 describe('Test if the package is usable', () => {
     test('Check path for the versiom', () => {
-        expect(idWordnet["1.2"]).toContain("id-wordnet/database/1.2")
+        expect(idWordnet.get('1.2')).toContain("id-wordnet/database/1.2")
     })
 })
