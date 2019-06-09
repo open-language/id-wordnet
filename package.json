@@ -1,6 +1,6 @@
 {
   "name": "id-wordnet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "repository": "git@github.com:open-language/id-wordnet.git",
@@ -39,5 +39,5 @@
     "test": "tsc && jest --detectOpenHandles",
     "build": "tsc"
   },
-  "files": ["dist/**/*"]
+  "files": ["dist/**/*", "database/**/*"]
 }
