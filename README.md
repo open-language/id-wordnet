@@ -17,6 +17,16 @@ Inspired by [Princeton WordNet](https://wordnet.princeton.edu/) and the [Global 
 ![](https://img.shields.io/travis/open-language/id-wordnet.svg)
 ![](https://img.shields.io/codecov/c/github/open-language/id-wordnet/master.svg)
 
+## Getting started
+
+We use [bun](https://bun.sh/) for this project.
+
+```bash
+curl -fsSL https://bun.sh/install | bash
+bun install
+bun test
+```
+
 ## Where did you find this?
 
 The latest version of the Bahasa Wordnet can be found at their [website](https://sourceforge.net/projects/wn-msa/) which is hosted on SourceForge. You can find more information about the project [here](http://wn-msa.sourceforge.net/index.eng.html).
