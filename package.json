@@ -1,8 +1,7 @@
 {
   "name": "id-wordnet",
-  "version": "1.0.6",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "1.0.7",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/open-language/id-wordnet.git"
@@ -27,6 +26,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "publish": "npm pkg fix; npm publish"
+    "publish": "npm pkg fix; npm publish",
+    "prod": "bun build src/index.ts --outdir dist --target node"
   }
 }
